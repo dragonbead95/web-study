@@ -1,0 +1,42 @@
+html,
+body {
+  margin: 0px 200px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.header {
+  border-radius: 5px;
+  background-color: #f3f9a7;
+}
+
+.content {
+  border-radius: 5px;
+}
+
+.content h2 {
+  background-color: #f3f9a7;
+  padding: 10px 10px;
+}
+
+.content .content__img {
+  width: 500px;
+  height: 400px;
+}
+
+.content p {
+  font-size: 15px;
+  line-height: 2;
+}
+
+.content ol li {
+  margin-bottom: 20px;
+}
+
+.content ol li ul {
+  margin-top: 20px;
+}
+
+.content a {
+  color: black;
+  text-decoration: none;
+}
