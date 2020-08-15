@@ -1,0 +1,38 @@
+.study-list .study-list__item {
+  background-color: white;
+  width: calc(25% - 2rem);
+  margin-bottom: 2rem;
+
+  padding: 2rem;
+  list-style: none;
+  position: relative;
+  box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s;
+}
+
+.study-list__item .study-list__a {
+  text-decoration: none;
+  color: black;
+}
+
+.study-list__item .study-list__image {
+  object-fit: cover;
+  width: calc(100%+4rem);
+  margin-left: -2rem;
+  margin-right: -2rem;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.study-list__item .study-list__number {
+  position: absolute;
+  background-color: black;
+  color: white;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  padding: 0.2rem 0.7rem;
+  text-align: center;
+  font-size: 1rem;
+}
